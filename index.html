@@ -33,7 +33,7 @@ function login() {
   var userid = document.getElementById("userid").value;
   var password = document.getElementById("password").value;
 
-  fetch("YOUR_APPS_SCRIPT_WEBAPP_URL", {
+  fetch("https://script.google.com/macros/s/AKfycbxKl_1WVIZa0mb4jmqVJFpVUCP8nnYPmz6RUTkq-fbmE86gcqSikaZFsVV5o30yJf9yHg/exec", {
     method: "POST",
     body: new URLSearchParams({
       userid: userid,
@@ -53,3 +53,4 @@ function login() {
 
 </body>
 </html>
+
